@@ -11,7 +11,7 @@ class InventoryProductEntry:
         # Initialisation des variables
         """
         Vous devez initialiser deux variables. 
-        la variable 'sales' qui stocke le total des revenues des ventes du produit
+        la variable 'sales' qui stocke le total des revenus des ventes du produit
         la variable 'expenses' qui stocke le total des dépenses pour restocker le produit
         
         """
@@ -32,7 +32,7 @@ class InventoryProductEntry:
             Retourner Faux
         SINON:
             Réduire la quantité en stock par la quantité demandée
-            Ajouter le revenue total de la vente à la variable 'sales' en multipliant la quantité vendue par le prix du produit
+            Ajouter le revenu total de la vente à la variable 'sales' en multipliant la quantité vendue par le prix du produit
             Retourner Vrai
         
         """
