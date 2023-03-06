@@ -12,8 +12,7 @@ class InventoryProductEntry:
         """
         Vous devez initialiser deux variables. 
         la variable 'sales' qui stocke le total des revenues des ventes du produit
-        la variable 'expenses' qui stocke le total des dépenses pour restocker le produit
-        
+        la variable 'expenses' qui stocke le total des dépenses pour restocker le produit        
         """
 
     #Méthode Sell
@@ -54,5 +53,6 @@ class InventoryProductEntry:
     qui contient des informations utiles telles que le nom du produit, la marque, la quantité en stock et le prix du produit.
 
     """
-    def __repr__(self):
+    def __repr__(self):        
         # Retourner une chaîne de caractères formatée contenant le nom du produit, la marque, la quantité en stock et le prix du produit.
+        pass
