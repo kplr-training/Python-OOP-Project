@@ -43,7 +43,7 @@ def main():
 
     #########
 
-    #generator.write_content(class_hierarchy_code, "product_classes.py")
+    generator.write_content(class_hierarchy_code, "product_classes.py")
 
     #########
 
