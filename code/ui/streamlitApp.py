@@ -1,12 +1,11 @@
 import sys
 sys.path.extend(['.','..'])
 import streamlit as st
-from typing import Dict
-from inventory.stock_manager import *
+import json
+from unidecode import unidecode
+from classes.product_classes import *
 import utils
-# from streamlitApp import InventoryManager
-# Define the Product, InventoryProductEntry, RevenueTracker, and InventoryManager classes as before
-import streamlit as st
+from inventory.stock_manager import *
 
 
 def run():
