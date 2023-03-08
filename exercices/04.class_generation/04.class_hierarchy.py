@@ -33,7 +33,7 @@ def generate_class_hierarchy(json_dict :dict, superclass_name:str=None,superclas
     pour chaque nom de classe (class_name) et attribut de cette dernière (class_attrs) dans les éléments de  json_dict, faire:
 
         - Générer la définition de la classe avec la méthode generate_class_def() en passant les arguments superclass_name et superclass_args comme entrées
-        - le résultat de la méthode generate_class_def() est stocker dans une variable 'class_def'
+        - le résultat de la méthode generate_class_def() est stocké dans une variable 'class_def'
         - Concaténer la définition de la classe à la chaîne de caractères class_defs
   
         - Ensuite, vérifier la présence des sous-classes dans la classe courante

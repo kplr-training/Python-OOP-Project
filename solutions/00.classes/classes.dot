@@ -1,0 +1,13 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"3.classes_solution.Canape" [color="black", fontcolor="black", label=<{Canape|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"3.classes_solution.Chaise" [color="black", fontcolor="black", label=<{Chaise|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"3.classes_solution.Meubles" [color="black", fontcolor="black", label=<{Meubles|couleur<br ALIGN="LEFT"/>dimensions<br ALIGN="LEFT"/>materiaux<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"3.classes_solution.Product" [color="black", fontcolor="black", label=<{Product|cost : int<br ALIGN="LEFT"/>marque<br ALIGN="LEFT"/>name : str<br ALIGN="LEFT"/>price : int<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"3.classes_solution.Table" [color="black", fontcolor="black", label=<{Table|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"3.classes_solution.Canape" -> "3.classes_solution.Meubles" [arrowhead="empty", arrowtail="none"];
+"3.classes_solution.Chaise" -> "3.classes_solution.Meubles" [arrowhead="empty", arrowtail="none"];
+"3.classes_solution.Meubles" -> "3.classes_solution.Product" [arrowhead="empty", arrowtail="none"];
+"3.classes_solution.Table" -> "3.classes_solution.Meubles" [arrowhead="empty", arrowtail="none"];
+}
