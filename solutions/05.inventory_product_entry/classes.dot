@@ -1,0 +1,5 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"inventory_product_entry.InventoryProductEntry" [color="black", fontcolor="black", label=<{InventoryProductEntry|expenses : int<br ALIGN="LEFT"/>product : Product<br ALIGN="LEFT"/>quantity<br ALIGN="LEFT"/>sales : int<br ALIGN="LEFT"/>|restock(quantity)<br ALIGN="LEFT"/>sell(quantity)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

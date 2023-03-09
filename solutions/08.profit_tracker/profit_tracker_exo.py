@@ -1,7 +1,6 @@
 class ProfitTracker:
 
 	def __init__(self):		
-
 		self.balance= 1000
 
 	def buy_product(self, product:Product,quantity):
