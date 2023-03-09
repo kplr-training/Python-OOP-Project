@@ -11,7 +11,7 @@ import utils
 def main():
 
     inventory_manager = InventoryManager()
-    json_data= generator.read_json("data/json_data.json")
+    json_data= generator.read_json("code/data/json_data.json")
     json_data = generator.trimspaces(json_data)
     json_dict = json.loads(str(unidecode(json_data)))
 
@@ -42,12 +42,10 @@ def main():
 			B. Show the current balance
 			Q. Quit
 		""")
-
         
         choice = input("Enter your choice: ")
         choice = choice.upper()
         
-
         if choice == "A":
             
             utils.print_list
