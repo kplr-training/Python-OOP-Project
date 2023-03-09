@@ -22,8 +22,7 @@ class TestInventoryManager(unittest.TestCase):
         self.pantalon = Pantalon("M", "noir", "jeans", 150, 200,"Zara")
 
     # Test de la méthode add_product de la classe InventoryManager
-    def test_add_product(self):
-        
+    def test_add_product(self):        
          """
          -Ajout de 5 chaises à l'inventaire en utilisant la méthode add_product
          -Vérification que la chaise a bien été ajoutée à l'inventaire avec la méthode assertIn ( assertIn(argument1, argument2) )
@@ -31,14 +30,14 @@ class TestInventoryManager(unittest.TestCase):
         """
 
     # Test de la méthode remove_product de la classe InventoryManager
-    def test_remove_product(self):
-        
+    def test_remove_product(self):      
          """
          -Ajout de 5 pantalons à l'inventaire en utilisant la méthode add_product
          -Suppression le pantalon de l'inventaire en utilisant la méthode remove_product
          -Vérification que le pantalon a bien été supprimé de l'inventaire avec la méthode assertNotIn ( assertNotIn(argument1, argument2) )
          -assertNotIn est une méthode qui permet de vérifier si un élément n'est pas présent dans une séquence
         """
+
     # Test de la méthode sell_product de la classe InventoryManager
     def test_sell_product(self):
         """
@@ -48,7 +47,6 @@ class TestInventoryManager(unittest.TestCase):
          - La méthode assertEqual prend deux arguments, les valeurs attendue et observée, et vérifie si les deux sont égaux. 
            Si les deux valeurs sont égales, le test réussit. Sinon, il échoue et affiche un message d'erreur indiquant les valeurs attendue et observée.
         """  
-        
         
     # Test de la méthode restock_product de la classe InventoryManager
     def test_restock_product(self):
